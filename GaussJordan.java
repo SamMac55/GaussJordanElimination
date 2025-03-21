@@ -11,7 +11,7 @@ public class GaussJordan {
     public GaussJordan(Scanner kb){
         System.out.print("How many rows: ");
         numrows = kb.nextInt();
-        System.out.print("How many columsn: ");
+        System.out.print("How many columns: ");
         numcols = kb.nextInt();
         matrix = new double[numrows][numcols];
         for(int i = 0; i< numrows; i++){
